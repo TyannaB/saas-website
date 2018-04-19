@@ -41,12 +41,17 @@ a:hover {
 
 img {
   position: static;
+  width: 100%;
 }
 
 p {
   margin-left: 0
 }
 
-nav ol li:last-child {
+a {
+  color: white;
+}
 
+dl {
+  color: white;
 }
