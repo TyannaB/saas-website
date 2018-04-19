@@ -1,0 +1,52 @@
+html {
+  background-color: black;
+  font-family: 'Lato', sans-serif;
+}
+
+h1 {
+  color: white;
+}
+
+h2 {
+  color: white;
+}
+
+h3 {
+  color: white;
+}
+
+p {
+  color: white;
+}
+
+ul {
+  color: white;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+  color: #FD00F4;
+}
+
+.btn {
+  background-color: #FD00F4;
+  padding: 16px;
+  border-radius: 8px;
+  color: black;
+  border-color: #707070;
+  position: absolute;
+  bottom: 13rem;
+}
+
+img {
+  position: static;
+}
+
+p {
+  margin-left: 0
+}
+
+nav ol li:last-child {
+
+}
