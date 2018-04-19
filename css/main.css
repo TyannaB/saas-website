@@ -4,11 +4,12 @@ html {
 }
 
 h1 {
-  color: white;
+  color: #0062FF;
 }
 
 h2 {
   color: white;
+  margin: 0
 }
 
 h3 {
@@ -29,14 +30,18 @@ a:hover {
   color: #FD00F4;
 }
 
+.banner-content {
+  bottom: 1em;
+  left: 1em;
+}
 .btn {
   background-color: #FD00F4;
   padding: 16px;
   border-radius: 8px;
   color: black;
   border-color: #707070;
-  position: absolute;
-  bottom: 13rem;
+  /*position: absolute;
+  bottom: 13rem;*/
   text-decoration: none;
 }
 
@@ -58,12 +63,12 @@ dl {
 }
 
 label {
-  color: white;
+  color: #FD00F4;
 }
 
 .btn-signup {
   position: absolute;
-  bottom: 8rem;
+  bottom: 9rem;
   background-color: #FD00F4;
   padding: 16px;
   border-radius: 8px;
@@ -73,4 +78,33 @@ label {
 
 nav {
   position: relative;
+}
+
+table {
+  color: #FD00F4;
+}
+
+.footer {
+  background-color: #0062FF;
+  padding-right: 80rem;
+  color: black;
+}
+
+.h2color {
+  color: #BB02FF;
+}
+
+.purple {
+  background-color: #72009B;
+}
+
+a {
+  text-decoration: none;
+}
+
+.box {
+  /* width: 100px;
+  padding: 100px; */
+  border-width: 5px;
+  background-color: #72009B;
 }
