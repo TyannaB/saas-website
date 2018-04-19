@@ -86,8 +86,9 @@ table {
 
 .footer {
   background-color: #0062FF;
-  padding-right: 80rem;
+  padding-right: 50rem;
   color: black;
+  width: 100%;
 }
 
 .h2color {
