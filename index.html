@@ -4,14 +4,14 @@
   <meta charset="utf-8">
   <title>SAAS Website</title>
   <meta name="viewport" content="width=device-width,initial-scale=1">
-  <link href="css/module.css" rel="stylesheet">
   <link href="css/grid.css" rel="stylesheet">
+  <link href="css/module.css" rel="stylesheet">
   <link href="css/type.css" rel="stylesheet">
   <link href="css/main.css" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Lato:400,700" rel="stylesheet">
 </head>
 <body>
-  <ul class="skip-links">
+  <ul class="skip-links" id="skip-links" tabindex="0">
     <li><a href="#main">Jump to main content</a></li>
     <li><a href="#nav">Jump to navigation</a></li>
     <li><a href="#footer">Jump to Footer</a></li>
@@ -25,7 +25,7 @@
         <h1 class="ib push-0 zetta">Music</h1>
       </div>
       <div class="nav ib unit" id="nav">
-        <nav class="wrapper gutter-1-2" role="navigation" tabindex="0" id="nav">
+        <nav class="wrapper gutter-1-2" role="navigation" tabindex="0">
           <ul class="mega list-group-inline">
             <li><a class="ib gutter-1-2 pad-t-1-2 pad-b-1-2 link-box" href="sign-up.html">Sign Up</a></li>
             <li><a class="ib gutter-1-2 pad-t-1-2 pad-b-1-2 link-box" href="pricing.html">pricing</a></li>
@@ -39,65 +39,64 @@
           <h2>45 Million songs</h2>
           <h3 class="push-0 pad-0">3 Months On Us</h3>
           <p class="max-length-no-center">Stream anything in the Apple Music collection on all your devices without interruption. Download albumn and tracks to your personal library and listen ofline.Start your free three month trial and cancel anytime.</p>
+          <button type="button" name="start-your-free-trial" class="btn">Start Your Free Trial</button>
+        </div>
+      </div>
+    </header>
+  </div>
 
-          <button type="button" name="start-your-free-trial" class="btn"><a href="sign-up.html">Start Your Free Trial</a></button>
+  <main id="main" role="main">
+    <div class="purple">
+      <h3 class="purple text-center">Available On</h3>
+      <!-- main id= main -->
+      <div class="grid text-center">
+        <div class="unit xs-1 s-1 m-1-6 l-1-6 box">
+          <i class="ib icon i-192 icon-label island">
+            <img src="images/mobile-alt.svg" alt="">
+          </i>
+          <p>IOS</p>
+        </div>
+        <div class="unit xs-1 s-1 m-1-6 l-1-6 box">
+          <i class="ib icon i-192 icon-label island">
+            <img src="images/android.svg" alt="">
+          </i>
+          <p>Android</p>
+        </div>
+        <div class="unit xs-1 s-1 m-1-6 l-1-6 box">
+          <i class="ib icon i-192 icon-label island">
+            <img src="images/apple-watch.png" alt="">
+          </i>
+          <p>Apple Watch</p>
+        </div>
+        <div class="unit xs-1 s-1 m-1-6 l-1-6 box">
+          <i class="ib icon i-192 icon-label island">
+            <img src="images/apple-tv.png" alt="">
+          </i>
+          <p>Apple TV</p>
+        </div>
+        <div class="unit xs-1 s-1 m-1-6 l-1-6 box">
+          <i class="ib icon i-192 icon-label island">
+            <img src="images/car.svg" alt="">
+          </i>
+          <p>Car Play</p>
+        </div>
+        <div class="unit xs-1 s-1 m-1-6 l-1-6 box">
+          <i class="ib icon i-192 icon-label island">
+            <img src="images/volume-up.svg" alt="">
+          </i>
+          <p>Sonos</p>
         </div>
       </div>
     </div>
-  </header>
-
-  <main id="main">
-  <div class="purple">
-    <h3 class="purple text-center">Available On</h3>
-  <!-- main id= main -->
-  <div class="grid text-center">
-    <div class="unit xs-1 s-1 m-1-6 l-1-6 box">
-      <i class="ib icon i-192 icon-label island">
-        <img src="images/mobile-alt.svg" alt="">
-      </i>
-      <p>IOS</p>
-    </div>
-    <div class="unit xs-1 s-1 m-1-6 l-1-6 box">
-      <i class="ib icon i-192 icon-label island">
-        <img src="images/android.svg" alt="">
-      </i>
-      <p>Android</p>
-    </div>
-    <div class="unit xs-1 s-1 m-1-6 l-1-6 box">
-      <i class="ib icon i-192 icon-label island">
-        <img src="images/apple-watch.png" alt="">
-      </i>
-      <p>Apple Watch</p>
-    </div>
-    <div class="unit xs-1 s-1 m-1-6 l-1-6 box">
-      <i class="ib icon i-192 icon-label island">
-        <img src="images/apple-tv.png" alt="">
-      </i>
-      <p>Apple TV</p>
-    </div>
-    <div class="unit xs-1 s-1 m-1-6 l-1-6 box">
-      <i class="ib icon i-192 icon-label island">
-        <img src="images/car.svg" alt="">
-      </i>
-      <p>Car Play</p>
-    </div>
-    <div class="unit xs-1 s-1 m-1-6 l-1-6 box">
-      <i class="ib icon i-192 icon-label island">
-        <img src="images/volume-up.svg" alt="">
-      </i>
-      <p>Sonos</p>
-    </div>
-  </div>
-  </div>
-</main>
-
-    <footer class="footer" id="footer">
-      <h3>Contact Us</h3>
-      <dl>
-        <dd class="push-0">Phone:</dd>
-        <dt>613-123-1234</dt>
-        <dd class="push-0">E-mail:</dd>
-        <dt>applemusic@gmail.com</dt>
-      </dl>
-    </footer>
-    </html>
+  </main>
+</body>
+<footer class="footer" id="footer">
+  <h3>Contact Us</h3>
+  <ul>
+    <li class="push-0">Phone:</li>
+    <li>613-123-1234</li>
+    <li class="push-0">E-mail:</li>
+    <li>applemusic@gmail.com</li>
+  </ul>
+</footer>
+</html>
