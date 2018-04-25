@@ -45,6 +45,7 @@ a:hover {
 
   /*position: absolute;
   bottom: 13rem;*/
+
   text-decoration: none;
 }
 
@@ -100,8 +101,6 @@ table {
 }
 
 .box {
-  /* width: 100px;
-  padding: 100px; */
   border-width: 5px;
   background-color: #72009b;
 }
