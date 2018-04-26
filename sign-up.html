@@ -16,31 +16,32 @@
     <li><a href="#nav">Jump to navigation</a></li>
     <li><a href="#footer">Jump to Footer</a></li>
   </ul>
-  <div class="grid">
-    <article class="unit">
-      <header class="masthead relative unit" role="banner">
-        <div class="wrapper pad-t-1-2 pad-b-1-2 gutter-1-2 unit xs-1-3 ib content embed embed-item">
-          <i class="ib icon i-48 icon-label island">
-            <img class="img-flex embed-16by9" src="images/apple.svg" alt="#" aria-details="#about">
-          </i>
-          <h1 class="ib push-0 zetta">Music</h1>
-        </div>
-        <div class="nav ib unit" id="nav">
-          <nav class="wrapper gutter-1-2" role="navigation" tabindex="0">
-            <ul class="mega list-group-inline">
-              <li><a class="ib gutter-1-2 pad-t-1-2 pad-b-1-2 link-box" href="sign-up.html">Sign Up</a></li>
-              <li><a class="ib gutter-1-2 pad-t-1-2 pad-b-1-2 link-box" href="pricing.html">Pricing</a></li>
-              <li><a class="ib gutter-1-2 pad-t-1-2 pad-b-1-2 link-box" href="tour.html">Tours</a></li>
-            </ul>
-          </nav>
-        </div>
-      </header>
-    </article>
-  </div>
+
+  <header class="masthead relative" role="banner">
+    <div class="grid grid-middle">
+      <div class="unit xs-1-2 s-1-2 m-1-2 l-1-2 ib content">
+        <i class="ib icon i-48">
+          <img class="img-flex" src="images/apple.svg" alt="#" aria-details="#about">
+          <a href="index.html" aria-label="#"></a>
+        </i>
+        <h1 class="ib push-0 zetta">Music</h1>
+      </div>
+      <div class="nav ib unit xs-1-2 s-1-2 m-1-2 l-1-2 text-right" id="nav">
+        <nav class="gutter-1-2" role="navigation" tabindex="0">
+          <ul class="mega list-group-inline">
+            <li><a class="ib gutter-1-2 pad-t-1-2 pad-b-1-2 link-box" href="sign-up.html">Sign Up</a></li>
+            <li><a class="ib gutter-1-2 pad-t-1-2 pad-b-1-2 link-box" href="pricing.html">Pricing</a></li>
+            <li><a class="ib gutter-1-2 pad-t-1-2 pad-b-1-2 link-box" href="tour.html">Tours</a></li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+  </header>
+
   <main id="main" role="main" tabindex="0">
     <section>
       <div class="form island-2 purple">
-        <form class="grid" method="post" action="https://formspree.io/bour0459@algonquinlive.com" id="form">
+        <form class="grid" method="POST" action="https://formspree.io/bour0459@algonquinlive.com" id="form">
           <div class="unit [ xs-1 s-1 m-1-2 l-1-3 ] push gutter-1-2">
             <label class="push-1-8" for="name">Username</label>
             <input id="name" name="Username" required>
@@ -53,14 +54,15 @@
             <label class="push-1-8" for="email">E-mail Address</label>
             <input id="email" name="email" required>
           </div>
-          <div class="unit [ xs-1 s-1 m-1-2 l-1-3 unit-m-centered unit-l-centered ] push gutter-1-2">
+          <div class="unit [ xs-1 s-1 m-1-2 l-1-3 unit-m-centered unit-l-centered ] push-3 gutter-1-2">
             <label class="push-1-8" for="credit">Credit</label>
             <input id="credit" name="credit" required>
           </div>
-          <div class="unit xs-1 text-center push-2">
-            <button class="btn-signup mega btn" type="submit">Sign Up</button>
+          <div class="unit xs-1 text-center">
           </div>
+          <button class="btn-signup mega btn" type="submit">Sign Up</button>
         </form>
+
       </div>
     </section>
   </main>
@@ -72,6 +74,7 @@
       <li class="push-0">E-mail:</li>
       <li>applemusic@gmail.com</li>
     </ul>
+    <a href="index.html" class="btn">Back to Home Page</a>
   </footer>
 </body>
 </html>
