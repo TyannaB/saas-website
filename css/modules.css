@@ -178,7 +178,7 @@ svg.img-flex {
 }
 
 .embed-16by9, .embed--16by9 {
-  padding-top: 56.25%; /* HD TV */
+  padding-top: 10%; /* HD TV */
 }
 
 .embed-185by100, .embed--185by100 {
